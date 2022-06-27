@@ -31,10 +31,7 @@ hr{
     grid-template-columns: auto auto auto;
 }
 .card{
-    /* height: 30vw;
-    width: 25vw;
-    margin: 2vw;
-    overflow: hidden; */
+    
     height: 40vw;
     width: 30vw;
     margin: 2vw;
