@@ -10,7 +10,7 @@ const Fitness = () => {
       {dataFit.map((item) => {
         return (
           <a href={item.url}>
-            <div className="card">
+            <div className="fcard">
               <img src={item.urlToImage} alt="FitnessImg" />
               <p>{item.title}</p>
               <hr />

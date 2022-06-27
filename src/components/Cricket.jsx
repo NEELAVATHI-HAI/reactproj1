@@ -9,7 +9,7 @@ const Cricket = () => {
         {dataCric.map((item) => {
           return (
             <a href={item.url}>
-              <div className="card">
+              <div className="ccard">
                 <img src={item.urlToImage} alt="FitnessImg" />
                 <p>{item.title}</p>
                 <hr />

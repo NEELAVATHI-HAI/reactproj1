@@ -39,7 +39,7 @@ const ApiHolly = (props) => {
       "url": "https://www.hindustantimes.com/entertainment/hollywood/jake-gyllenhaal-acting-is-not-real-life-in-any-form-you-walk-into-a-scene-with-all-of-your-life-experiences-101653550528289.html",
       "urlToImage": "https://images.hindustantimes.com/img/2022/05/26/550x309/f031a914-ce04-11ec-a18e-026abbb3bb32_1653550527222.jpg",
       "publishedAt": "May 26, 2022 01:05 PM IST",
-      "content": null
+      "content": "On Tuesday, the United States witnessed yet another tragic episode of mass shooting after a gunman opened fire in an elementary school in Texas. The incident has seen angry reactions about gun control and mass shootings in the US from celebs and common folk alike."
       },
       {
       "source": {
@@ -52,7 +52,7 @@ const ApiHolly = (props) => {
       "url": "https://indianexpress.com/article/entertainment/hollywood/kristen-stewart-on-body-horror-cronenberg-and-cannes-7936703/",
       "urlToImage": "https://images.indianexpress.com/2022/05/Kristen-Stewart-ap-1200by667.jpeg",
       "publishedAt": "May 26, 2022 2:26:13 pm",
-      "content": null
+      "content": "On Tuesday, the United States witnessed yet another tragic episode of mass shooting after a gunman opened fire in an elementary school in Texas. The incident has seen angry reactions about gun control and mass shootings in the US from celebs and common folk alike."
       },
       {
       "source": {

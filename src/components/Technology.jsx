@@ -10,7 +10,7 @@ const Technology = () => {
       {dataTech.map((item) => {
         return (
           <a href={item.url}>
-            <div className="card">
+            <div className="tcard">
               <img src={item.urlToImage} alt="TechImg" />
               <p>{item.title}</p>
               <hr />

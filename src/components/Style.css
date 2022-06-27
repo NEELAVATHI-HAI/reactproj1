@@ -1,6 +1,6 @@
 *{
     color: black;
-    background-color:#2596be;
+    background-color:aquamarine;
     font-family: 'Montserrat', sans-serif;
 }
 #navBar{
@@ -31,14 +31,55 @@ hr{
     grid-template-columns: auto auto auto;
 }
 .card{
-    height: 30vw;
+    /* height: 30vw;
+    width: 25vw;
+    margin: 2vw;
+    overflow: hidden; */
+    height: 40vw;
+    width: 30vw;
+    margin: 2vw;
+    overflow: hidden;
+}
+.bcard{
+    height: 70vw;
     width: 25vw;
     margin: 2vw;
     overflow: hidden;
+
+}
+.hcard{
+    height: 55vw;
+    width: 25vw;
+    margin: 2vw;
+    overflow: hidden;
+
+}
+.tcard{
+    height: 70vw;
+    width: 25vw;
+    margin: 2vw;
+    overflow: hidden;
+
+}
+.fcard{
+    height: 50vw;
+    width: 25vw;
+    margin: 2vw;
+    overflow: hidden;
+
 }
 .card:hover{
     box-shadow:  0px 0px 15px 5px darkblue;
 }
+.bcard:hover{
+    box-shadow:  0px 0px 15px 5px darkblue;}
+.hcard:hover{
+        box-shadow:  0px 0px 15px 5px darkblue;}
+.tcard:hover{
+            box-shadow:  0px 0px 15px 5px darkblue;}
+.fcard:hover{
+                box-shadow:  0px 0px 15px 5px darkblue;}
+
 a{
     text-decoration: none;
 }
@@ -51,19 +92,80 @@ p{
         grid-template-columns: auto auto;
     }
     .card{
-        height: 60vw;
+        height: 130vw;
         width: 45vw;
         margin: 2vw;
         overflow: hidden;
     }
+    .bcard{
+        height: 150vw;
+        width: 45vw;
+        margin: 2vw;
+        overflow: hidden;
+    }
+    .hcard{
+        height: 150vw;
+        width: 45vw;
+        margin: 2vw;
+        overflow: hidden;
+    }
+    .tcard{
+        height: 150vw;
+        width: 45vw;
+        margin: 2vw;
+        overflow: hidden;
+    }
+    .fcard{
+        height: 130vw;
+        width: 45vw;
+        margin: 2vw;
+        overflow: hidden;
+    }
+    .ccard{
+        height: 100vw;
+        width: 45vw;
+        margin: 2vw;
+        overflow: hidden;
+    }
+
 }
 @media(max-width:480px){
     .contentPage{
         display: block;
     }
     .card{
-        height: 90vw;
+        height: 130vw;
         width: 90vw;
+        margin: 4vw;
+        overflow: hidden;
+    }
+    .bcard{
+        height: 150vw;
+        width: 90vw;
+        margin: 4vw;
+        overflow: hidden;
+    }
+    .hcard{
+        height: 150vw;
+        width: 90vw;
+        margin: 4vw;
+        overflow: hidden;
+    }
+    .tcard{
+        height: 160vw;
+        width: 90vw;
+        margin: 4vw;
+        overflow: hidden;
+    }
+    .fcard{
+        height: 150vw;
+        width: 90vw;
+        margin: 4vw;
+        overflow: hidden;
+    }
+    .ccard{
+        height: 100vw;
+        width: 30vw;
         margin: 4vw;
         overflow: hidden;
     }

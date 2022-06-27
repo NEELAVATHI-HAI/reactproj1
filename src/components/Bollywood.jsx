@@ -10,7 +10,7 @@ const Bollywood = () => {
       {data.map((item) => {
         return (
           <a href={item.url}>
-            <div className="card">
+            <div className="bcard">
               <img src={item.ImageAsset} alt="BollyImg" />
               <p>{item.Title}</p>
               <p>{item.BlogContent}</p>

@@ -8,7 +8,7 @@ const Hollywood = () => {
       {dataHolly.map((item) => {
         return (
           <a href={item.url}>
-            <div className="card">
+            <div className="hcard">
               <img src={item.urlToImage} alt="HollyImg" />
               <p>{item.title}</p>
               <p>{item.source.name}/{item.publishedAt}</p>
